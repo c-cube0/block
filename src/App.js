@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import imaje from './headerimaje.jpeg';
+import aicon from './aicon-imaje.jpg'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="main">
+      <div class="main-header">
+        <span class="usearname">しょうた × エンジニア</span>
+        <span class="caunt">1,149件のツイート</span>
+      </div>
+
+      <img className="headerimaje" src={imaje} alt="headerimaje" />
+      <div class="main-visual">
+      </div>
+      <img className="aicon" src={aicon} alt="aicon" />
+
+      <div class="main-messege">
+        <span class="usearname">しょうた × エンジニア</span>
+        <span class="id">@shota1995m</span>
+      </div>
+
     </div>
   );
 }

@@ -1,22 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import image from './headerimage.jpeg';
 import icon from './icon-image.jpg';
 import Arrow from './Arrow.svg';
 
 function App() {
+  const [username, setUsername] = useState("ユーザー名");
+  const [tweetcount, setTweetcount] = useState(0);
+  const [userid, setUserid] = useState("@userid");
   return (
+
     <div class="main">
+
       <div class="main-header">
         <div class="headerbackclick">
           <img src={Arrow} alt="icon" class="backclick" />
         </div>
         <div class="usearnamecaunt">
-          <span class="usearname">しょうた × エンジニア</span>
-          <span class="caunt">1,149件のツイート</span>
+          <span class="usearname">{username}</span>
+          <span class="caunt">{tweetcount}</span>
         </div>
       </div>
-
       <img className="headerimage" src={image} alt="headerimage" />
       <div class="main-visual">
         <div class="main-messege">
@@ -30,15 +34,16 @@ function App() {
               </div>
             </div>
           </div>
-          <span class="iconname">しょうた × エンジニア</span>
-          <span class="id">@shota1995m</span>
+          <span class="iconname">{username}</span>
+          <span class="id">{userid}</span>
         </div>
       </div>
       <div class="underimage">
         <span class="undercoment">ブロックされています。</span>
-        <span class="id">@shota1995mさんのフォローやツイートの表示はできません。</span>
+        <span class="id">{userid}さんのフォローやツイートの表示はできません。</span>
         <a href="" className="link"><span>詳細はこちら</span></a>
       </div>
+
     </div >
   );
 }

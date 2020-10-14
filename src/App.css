@@ -47,7 +47,7 @@
   .main-visual {
     width :598px;
     height: 127;
-    /* background-color: blue; */
+    
   }
   .id {
     color: #657786;
@@ -56,16 +56,16 @@
   .main-messege {
     padding: 10px 15px;
     margin: 0 0 15px;
-    /* height: 107px; */
+    
     border-bottom: 1px solid;
     border-color: rgb(230, 236, 240);
-    /* background-color: aquamarine; */
+    
 
   }
   .underimage {
     border: 1px;
     padding: 39px 20px;
-    /* background-color: coral; */
+    
     display: block;
     text-align: center;
     height: 53px;
@@ -88,7 +88,7 @@
     height: 22.5px;
     color: rgba(29,161,242,1.00);
     float: left;
-    /* display: flex; */
+    
   }
   .usearnamecaunt {
     display: inline-block;

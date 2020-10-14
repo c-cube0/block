@@ -1,9 +1,10 @@
 .main {
   width :598px;
-  height :1203px;
+  height :1000px;
   border-right: 1px solid; 
   border-left: 1px solid; 
   border-color: rgb(230, 236, 240);
+  margin: auto;
   }
   .main-header {
     width :598px;

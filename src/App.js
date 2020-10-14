@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import './App.css';
-import image from './headerimage.jpeg';
-import icon from './icon-image.jpg';
 import Arrow from './Arrow.svg';
 
 function App() {
   const [username, setUsername] = useState("ユーザー名");
   const [tweetcount, setTweetcount] = useState(0);
   const [userid, setUserid] = useState("@userid");
+  const [headerimage, setHeaderimage] = useState("https://pbs.twimg.com/profile_banners/753535374563999746/1553342042/600x200");
+  const [iconimage, setIconimage] = useState("https://pbs.twimg.com/profile_images/1109423116395012096/mKtt9EUg_200x200.jpg");
+
   return (
 
     <div class="main">
@@ -21,11 +22,11 @@ function App() {
           <span class="caunt">{tweetcount}</span>
         </div>
       </div>
-      <img className="headerimage" src={image} alt="headerimage" />
+      <img className="headerimage" src={headerimage} alt="headerimage" />
       <div class="main-visual">
         <div class="main-messege">
           <div class="actionbutton">
-            <img className="icon" src={icon} alt="icon" />
+            <img className="icon" src={iconimage} alt="iconimage" />
             <div class="menubutton">
               <div class="menubutton1">
                 <div class="menubuttonmini"></div>

@@ -1,9 +1,9 @@
 import React from 'react';
-import './userIcon.css';
+import './UserIcon.css';
 
-function UserIcon({ iconimage }) {
+function UserIcon({ iconimage, username }) {
     return (
-        <img className="icon" src={iconimage} alt="iconimage" />
+        <img className="user-icon" src={iconimage} alt={`${username}のアイコン画像`} />
     )
 }
 export { UserIcon };

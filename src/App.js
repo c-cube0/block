@@ -28,7 +28,7 @@ function App() {
           <Nameid username={username} userid={userid} />
         </div>
       </div>
-      <Underimage userid={userid} />
+      <Underimage userid={userid} username={username} />
     </div >
   );
 }

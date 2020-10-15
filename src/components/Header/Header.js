@@ -11,7 +11,7 @@ function Header({ username, tweetcount }) {
             </div>
             <div class="usearnamecount">
                 <span class="username">{username}</span>
-                <span class="count">{tweetcount}</span>
+                <span class="count">{tweetcount} 件のツイート</span>
             </div>
         </div>
     )

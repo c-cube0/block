@@ -9,7 +9,7 @@ import { Underimage } from './components/Underimage';
 import './App.css';
 
 function App() {
-  const [username, setUsername] = useState("ユーザー名");
+  const [username, setUsername] = useState("しょうた");
   const [tweetcount, setTweetcount] = useState(0);
   const [userid, setUserid] = useState("@userid");
   const [headerimage, setHeaderimage] = useState("https://pbs.twimg.com/profile_banners/753535374563999746/1553342042/600x200");
@@ -22,13 +22,13 @@ function App() {
       <div className="main-visual">
         <div className="main-messege">
           <div className="actionbutton">
-            <UserIcon iconimage={iconimage} />
+            <UserIcon iconimage={iconimage} username={username} />
             <Menubutton />
           </div>
           <Nameid username={username} userid={userid} />
         </div>
       </div>
-      <Underimage userid={userid} username={username} />
+      <Underimage userid={userid} />
     </div >
   );
 }

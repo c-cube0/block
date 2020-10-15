@@ -1,5 +1,5 @@
 .underimage {
-    padding: 39px 20px;
+    padding: 22px 20px;
     border: 1px;
     display: block;
     text-align: center;
@@ -10,6 +10,7 @@
     text-decoration: none;
 }
 .undercoment {
+    margin-bottom: 4px;
     font-size: 19px;
     font-weight: bold;
     display: block;

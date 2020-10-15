@@ -15,18 +15,14 @@
   }
   .main-visual {
     width :598px;
-    height: 127;
-    
   }
   
   .main-messege {
-    padding: 10px 15px;
+    padding: 7px 15px 36px;
     margin: 0 0 15px;
     
     border-bottom: 1px solid;
     border-color: rgb(230, 236, 240);
-    
-
   }
   
   .actionbutton {

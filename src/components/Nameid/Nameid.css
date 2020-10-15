@@ -3,7 +3,9 @@
     font-size: 15px;
 }
 .iconname {
+    padding-top: 5px;
     font-size: 19px;
     font-weight: bold;
     display: block;
+    line-height: 1.3em;
 }

@@ -1,0 +1,16 @@
+.underimage {
+    padding: 39px 20px;
+    border: 1px;
+    display: block;
+    text-align: center;
+    height: 53px;
+}
+.link {
+    color: rgb(27, 149, 224);
+    text-decoration: none;
+}
+.undercoment {
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+}

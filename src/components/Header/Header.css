@@ -1,7 +1,6 @@
 .main-header {
     width :598px;
     height :53px;
-    padding: 0 15px;
     display: flex;
     justify-content: start;
 }

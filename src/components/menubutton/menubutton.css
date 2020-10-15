@@ -1,6 +1,6 @@
 .menubutton {
-    width: 37px;
-    height: 37px;
+    width: 38px;
+    height: 38px;
     box-sizing: border-box;
     border-radius: 50%;
     border: solid 1px rgba(29,161,242,1.00);
@@ -10,8 +10,8 @@
     justify-content: space-around;
 }
 .menubuttonmini {
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     box-sizing: border-box;
     border-radius: 50%;
     border: solid 1px rgba(29,161,242,1.00);

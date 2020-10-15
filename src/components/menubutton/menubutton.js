@@ -1,17 +1,15 @@
 import React from 'react';
-import './menubutton.css';
+import './Menubutton.css';
 
-function menubutton() {
+function Menubutton() {
     return (
-        <div className="actionbutton">
-            <div className="menubutton">
-                <div className="menubutton1">
-                    <div className="menubuttonmini"></div>
-                    <div className="menubuttonmini"></div>
-                    <div className="menubuttonmini"></div>
-                </div>
+        <div className="menubutton">
+            <div className="menubutton1">
+                <div className="menubuttonmini"></div>
+                <div className="menubuttonmini"></div>
+                <div className="menubuttonmini"></div>
             </div>
         </div>
     )
 }
-export { menubutton };
+export { Menubutton };

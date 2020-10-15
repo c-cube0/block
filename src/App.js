@@ -3,9 +3,9 @@ import React, { useState } from 'react';
 import { Header } from './components/Header';
 
 import { UserIcon } from './components/UserIcon';
-import { Menubutton } from './components/menubutton';
-
-
+import { Menubutton } from './components/Menubutton';
+import { Nameid } from './components/Nameid';
+import { Underimage } from './components/Underimage';
 import './App.css';
 
 function App() {
@@ -23,25 +23,12 @@ function App() {
         <div className="main-messege">
           <div className="actionbutton">
             <UserIcon iconimage={iconimage} />
-            {/* <img className="icon" src={iconimage} alt="iconimage" /> */}
-            {/* <div className="menubutton">
-              <div className="menubutton1">
-                <div className="menubuttonmini"></div>
-                <div className="menubuttonmini"></div>
-                <div className="menubuttonmini"></div>
-              </div>
-            </div> */}
+            <Menubutton />
           </div>
-          <span className="iconname">{username}</span>
-          <span className="id">{userid}</span>
+          <Nameid username={username} userid={userid} />
         </div>
       </div>
-      <div className="underimage">
-        <span className="undercoment">ブロックされています。</span>
-        <span className="id">{userid}さんのフォローやツイートの表示はできません。</span>
-        <a href="" className="link"><span>詳細はこちら</span></a>
-      </div>
-
+      <Underimage userid={userid} />
     </div >
   );
 }
